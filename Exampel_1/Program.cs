@@ -14,7 +14,7 @@ int ReadInt(string msg) // объявляем функцию РидИнт и с�
 int namber = ReadInt("Please, enter a three-digit number");//Просим ввести пользователя 3х значное число.
 while (true) //Проверяем что число 3х знначное. 
 {
-    if(namber>99&&namber<1000)
+    if (namber > 99 && namber < 1000)
     {
         break;
     }
